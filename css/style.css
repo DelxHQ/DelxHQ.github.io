@@ -7,18 +7,19 @@ html {
 }
 
 body { 
-    background-image: url(https://cdn.bradleyw.me/clouds-optimised.jpg);
+    background-image: url(../images/orig.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav {
     background-color: black;
     overflow: hidden;
-    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav a {
@@ -27,9 +28,36 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
+
+    animation-name: fadeInOut;
+    animation-duration: 5s;
 }
 
 .nav a:hover {
-    background-color: rgb(165, 22, 209);
+    background-color: #ba7896;
+
+    transition: all .3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 16%;
+    animation-name: fadeInOut;
+    animation-duration: 5s;
 }
