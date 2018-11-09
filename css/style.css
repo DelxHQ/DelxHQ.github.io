@@ -1,39 +1,35 @@
 /* © 2018 - Dylan Ogle */
 
-body {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+    height: 100%;
 }
 
-.header {
-    background-color: #f1f1f1;
-    padding: 5px;
-    text-align: center;
+body { 
+    background-image: url(https://cdn.bradleyw.me/clouds-optimised.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
 }
 
-.topnav {
+.nav {
+    background-color: black;
     overflow: hidden;
-    background-color: #333;
+    box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.topnav a {
+.nav a {
     float: left;
-    display: block;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.footer {
-    background-color: #f1f1f1;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+.nav a:hover {
+    background-color: rgb(165, 22, 209);
 }
