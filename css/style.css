@@ -61,3 +61,24 @@ body {
     animation-name: fadeInOut;
     animation-duration: 5s;
 }
+
+.projects { 
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 10%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: fadeInOut;
+    animation-duration: 5s;
+}
+
+.projects a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    text-align: center;
+    padding: 2px 15px;
+}
